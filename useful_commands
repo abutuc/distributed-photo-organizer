@@ -1,0 +1,18 @@
+Create folders:
+
+    python3 create_nodes.py 4
+
+Launch daemons:
+
+    python3 daemon.py node0 5000
+    python3 daemon.py node1 5001 5000
+    python3 daemon.py node2 5002 5000
+    python3 daemon.py node3 5003 5000
+
+Launch network:
+
+    python3 launch_network.py 4
+
+Launch client
+
+    python3 dameon.py 5000
